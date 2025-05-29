@@ -6,14 +6,14 @@ import 'package:audioplayers/audioplayers.dart'; // 導入 audioplayers
 import 'dart:math'; // 導入 Random 類別，用於心率模擬
 
 // 索引 2: 運動追蹤 - 跑步進行中的實時數據和引導 (功能 1, 2, 3, 7, 9, 10)
-class TrackRunPage extends StatefulWidget {
-  const TrackRunPage({super.key}); // 使用 super.key 簡化建構子
+class map extends StatefulWidget {
+  const map({super.key}); // 使用 super.key 簡化建構子
 
   @override
-  State<TrackRunPage> createState() => _TrackRunPageState();
+  State<map> createState() => _TrackRunPageState();
 }
 
-class _TrackRunPageState extends State<TrackRunPage> {
+class _TrackRunPageState extends State<map> {
   // State variables for Pace Guidance
   bool _isMetronomePlaying = false;
   int _targetBPM = 100; // 預設 BPM 設定為 100
