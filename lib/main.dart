@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<BottomNavigationBarItem> _bottomItems = const [
     BottomNavigationBarItem(icon: Icon(Icons.map), label: '路線'),
     BottomNavigationBarItem(icon: Icon(Icons.directions_run), label: '運動'),
-    BottomNavigationBarItem(icon: Icon(Icons.analytics), label: '紀錄'),
+    BottomNavigationBarItem(icon: Icon(Icons.dashboard), label: '紀錄'),
     BottomNavigationBarItem(icon: Icon(Icons.fitness_center), label: '教學'),
     BottomNavigationBarItem(icon: Icon(Icons.build), label: '工具'), // 使用工具箱圖示，標籤為工具
   ];
